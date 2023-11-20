@@ -1,0 +1,84 @@
+.container {
+  width: 40%;
+  color: white;
+  background: url(../assets/bg1.avif);
+  filter: brightness(80%);
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+.container h2 {
+  font-size: 2.5rem;
+}
+.container p {
+  font-size: 1.2rem;
+  margin-top: 8px;
+}
+
+.strong {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.strong .icon {
+  color: green;
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+
+.passField {
+  display: flex;
+  justify-content: center;
+}
+.passField input {
+  margin: 5px 5px;
+  padding: 0.55rem;
+  border-radius: 0.5rem;
+  height: 4rem;
+  font-size: 1.2rem;
+}
+.passField .pass {
+  background-color: #5bb254;
+}
+.passField button {
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 4rem;
+  margin-top: 5px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.inputs input[type=checkbox] {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 70%;
+  }
+  .container h2 {
+    font-size: 2rem;
+  }
+  .passField input {
+    margin: 5px 5px;
+    padding: 0.55rem;
+    border-radius: 0.5rem;
+    height: 3.2rem;
+    font-size: 0.8rem;
+  }
+  .passField button {
+    border-radius: 0.5rem;
+    width: 0.8rem;
+    height: 3.2rem;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=Passgen.css.map */
